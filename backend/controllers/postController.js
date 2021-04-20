@@ -65,7 +65,7 @@ exports.getPosts = (req, res, next) => {
       res.status(200).json({
         message: "Posts fetched succesfully",
         posts: fetchedPost,
-        maxPosts: count,
+        maxPosts: count
       });
     })
     .catch((error) => {
@@ -152,3 +152,5 @@ exports.updatePost = (req, res, next) => {
       });
     });
 };
+
+

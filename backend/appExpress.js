@@ -22,7 +22,7 @@ mongoose
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended : false}));
-app.use("/images", express.static(path.join("backend/images")));  //acceso a la carpeta iamgenes. el static indica que cualquier solicitu sera permitida
+app.use("/images", express.static(path.join(__dirname,"images")));  //acceso a la carpeta iamgenes. el static indica que cualquier solicitu sera permitida
 
 //middleware
 app.use((req, res, next) => {

@@ -20,7 +20,7 @@ const storage = multer.diskStorage({
   },
 
   filename: (req, file, cb) => {
-    const name = file.originalname.toLocaleLowerCase().split(" ").join("-");
+    const name = file.originalname.toLowerCase().split(" ").join("-");
     const extension = MIME_TYPE_MAP[file.mimetype];
     cb(null, name + "-" + Date.now() + "." + extension);
   }
