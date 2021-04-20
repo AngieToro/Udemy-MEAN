@@ -8,8 +8,8 @@ const userRoutes = require("./routes/userRoutes");
 
 const app = express()
 
-//const uriDB = "mongodb+srv://Angie:dNOM0s6UaQxJaOOL@cluster0-c8l8g.mongodb.net/test?retryWrites=true&w=majority";
-const uriDB = "mongodb://localhost/cursoDB";
+const uriDB = "mongodb+srv://udemy-mean:udemy-mean-1234@cluster0.ixrau.mongodb.net/test?retryWrites=true&w=majority";
+//const uriDB = "mongodb://localhost/cursoDB";
 //nodo-angular es el nombre de la base de datos
 mongoose
         .connect(uriDB, { useNewUrlParser: true, useUnifiedTopology: true })

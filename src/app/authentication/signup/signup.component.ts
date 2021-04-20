@@ -5,7 +5,7 @@ import { AuthenticationService } from "../authentication.service";
 import { Subscription } from 'rxjs';
 
 @Component({
-  selector: "app-signup", //es opcional
+  //selector: "app-signup", //es opcional
   templateUrl: "./signup.component.html",
   styleUrls: ["./signup.component.css"]
 
@@ -31,7 +31,7 @@ export class SignupComponent  implements OnInit, OnDestroy{
 
 
   onSignup(form: NgForm){
-    console.log(form.value);
+    //console.log(form.value);
 
     //se valida que existan datos
     if (form.invalid){
