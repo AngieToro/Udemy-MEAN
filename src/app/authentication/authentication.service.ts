@@ -157,7 +157,6 @@ private userId: string;
       token: token,
       expirationDate: new Date(expirationDate),
       userId: userId
-    }
-
+    };
   }
 }

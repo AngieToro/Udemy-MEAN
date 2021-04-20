@@ -6,7 +6,7 @@ import { AngularMaterialModule } from './angular-material.module';
 
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
-import { AppRoutingModule } from './app-routing.module';
+import { AppRoutingModule } from './/authentication/app-routing.module';
 import { ErrorInterceptor } from './error-interceptor';
 import { ErrorComponent } from './error/error.component';
 import { PostsModule } from './posts/posts.module';
